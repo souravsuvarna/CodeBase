@@ -20,6 +20,7 @@ int main()
     vector<int> v = {1,2,2};
     int size = v.size();
     vector<int>res = {};
+    sort(v.begin(),v.end());
     subsets(0,size,v,res);
     return 0;
 }
